@@ -1,7 +1,7 @@
 .milestone {
   width: 300px;
   height: 400px;
-  color: #EDEDED;
+  color: #ededed;
   background-color: #000000;
   border: 1px solid #000000;
   border-radius: 10px;
@@ -15,10 +15,10 @@
   margin: 7px;
 }
 
-.milestone-info{
-  margin: 0 14px;  
+.milestone-info {
+  margin: 0 14px;
 }
-.milestone-info p{
+.milestone-info p {
   margin-bottom: 0;
   margin-top: 5px;
 }
@@ -30,21 +30,20 @@
   margin-top: 7px;
 }
 
-.btn-add{
-    width: 80%;
-    margin-left: 28px;
-    background-color: #8E05C2;
-    border: none;
-    border-radius: 10px;
-    position: absolute;
-    bottom: 15px;
+.btn-add {
+  width: 85%;
+  margin-left: 22px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #8e05c2;
+  background-color: #ededed;
+  border: none;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 15px;
 }
 
-.btn-add p{
-    font-weight: 600;
-    color: #EDEDED;
-}
-
-.btn-add:hover{
-    background-color: #3E065F;
+.btn-add:hover {
+  background-color: #8e05c2;
+  color: #ededed;
 }
