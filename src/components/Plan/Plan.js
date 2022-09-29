@@ -16,10 +16,7 @@ const Plan = () => {
     <div className="plan-container">
       <div className="milestone-container">
         {milestones.map((milestone) => (
-          <Milestones 
-          key={milestone.id}
-          milestone={milestone}
-          ></Milestones>
+          <Milestones key={milestone.id} milestone={milestone}></Milestones>
         ))}
       </div>
       <div className="cart-container">
