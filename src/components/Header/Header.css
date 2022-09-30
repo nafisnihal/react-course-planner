@@ -1,23 +1,32 @@
 .header {
   height: 80px;
-  background-color: #3E065F;
+  background-color: #3e065f;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 60px;
 }
 
-.logo{
-    color: #EDEDED;
+.logo {
+  color: #ededed;
 }
 .header a {
-  color: #EDEDED;
+  color: #ededed;
   text-decoration: none;
   font-size: 17px;
-  margin-left: 36px;
+  margin-right: 36px;
 }
 
 .header a:hover {
-  color: #DA0037;
+  color: #da0037;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 10px;
+    margin: 0;
+  }
+  .header a {
+    margin-left: 20px;
+  }
 }

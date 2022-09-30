@@ -1,81 +1,86 @@
-.cart{
-    color: #EDEDED;
-    position: sticky;
-    top: 0;
-    background-color: #000000;
-    padding: 20px 20px;
-    height: 944px;
+.cart {
+  color: #ededed;
+  position: sticky;
+  top: 0;
+  background-color: #000000;
+  padding: 20px 20px;
+  height: 944px;
 }
 
-.name{
-    display: flex;
-    align-items: center;
-    background-color: #8E05C2;
-    padding-left: 10px;
-    border-radius: 15px;
+.name {
+  display: flex;
+  align-items: center;
+  background-color: #8e05c2;
+  padding-left: 10px;
+  border-radius: 15px;
 }
 
-.name-info{
-    margin-left: 10px;
-    font-size: 10px;
+.name-info {
+  margin-left: 10px;
+  font-size: 10px;
 }
 
-.name img{
-    height: 50px;
-    width: 50px;
-    border-radius: 12px;
+.name img {
+  height: 50px;
+  width: 50px;
+  border-radius: 12px;
 }
 
-.break{
-    margin-top: 30px;
-    padding: 5px;
-    text-align: center;
-    background-color: #8E05C2;
-    border-radius: 15px;
+.break {
+  margin-top: 30px;
+  padding: 5px;
+  text-align: center;
+  background-color: #8e05c2;
+  border-radius: 15px;
 }
 
-
-.minutes{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 10px 0;
+.minutes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 0;
 }
 
-.minutes button{
-    color: #EDEDED;
-    background-color: #700B97;
-    border: 0;
-    padding: 10px;
-    border-radius: 12px;
+.minutes button {
+  color: #ededed;
+  background-color: #700b97;
+  border: 0;
+  padding: 10px;
+  border-radius: 12px;
 }
-.minutes button:hover{
-    background-color: #000000;
-}
-
-.required-time{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #8E05C2;
-    padding: 0 5px;
-    border-radius: 15px;
-    margin-bottom: 10px;
+.minutes button:hover {
+  background-color: #000000;
 }
 
-.btn-completed{
-    width: 100%;
-    color: #8E05C2;
-    background-color: #EDEDED;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 20px;
-    padding: 15px;
-    border: 0;
-    border-radius: 20px;
+.required-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8e05c2;
+  padding: 0 5px;
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
-.btn-completed:hover{
-    color: #EDEDED;
-    background-color: #8E05C2;
+.btn-completed {
+  width: 100%;
+  color: #8e05c2;
+  background-color: #ededed;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 15px;
+  border: 0;
+  border-radius: 20px;
+}
+
+.btn-completed:hover {
+  color: #ededed;
+  background-color: #8e05c2;
+}
+
+@media screen and (max-width: 768px) {
+  .cart {
+    height: auto;
+  }
 }
