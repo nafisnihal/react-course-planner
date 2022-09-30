@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Cart.css";
 import logo from "../../pictures/logo.jpg";
 
-const Cart = () => {
+const Cart = ({cart}) => {
+    const [breakTime, setBreakTime] = useState([]);
+    useEffect(() => {}, [breakTime]);
+    const addLocalStorage = (Time) => {
+      localStorage.setItem("break", Time);
+      setBreakTime(Time);
+    };
+    const getLocalStorageItem = localStorage.getItem("break");
+
   return (
     <div className="cart">
       <div className="name">
@@ -15,10 +23,18 @@ const Cart = () => {
       <div className="break">
         <p className="break-title">Select Minutes of Break Time</p>
         <div className="minutes">
-          <button>10</button>
-          <button>20</button>
-          <button>30</button>
-          <button>40</button>
+          <button onClick={(e) => addLocalStorage(e.target.innerText)}>
+            10
+          </button>
+          <button onClick={(e) => addLocalStorage(e.target.innerText)}>
+            20
+          </button>
+          <button onClick={(e) => addLocalStorage(e.target.innerText)}>
+            30
+          </button>
+          <button onClick={(e) => addLocalStorage(e.target.innerText)}>
+            40
+          </button>
         </div>
       </div>
       <div className="course-details">
@@ -26,13 +42,13 @@ const Cart = () => {
         <div className="required-time">
           <p>Required Time:</p>
           <p>
-            <span>00</span> Hours
+            <span>{cart}</span> Hours
           </p>
         </div>
         <div className="required-time">
           <p>Break Time:</p>
           <p>
-            <span>00</span> Minutes
+            <span>{getLocalStorageItem}</span> Minutes
           </p>
         </div>
       </div>

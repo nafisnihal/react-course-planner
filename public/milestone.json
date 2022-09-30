@@ -3,42 +3,42 @@
     "id": "1",
     "name": "Milestone 1: Personal Portfolio",
     "details": "A personal Portfolio will be created here.",
-    "time": "2",
+    "time": 2,
     "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-2.jpg"
   },
   {
     "id": "2",
     "name": "Milestone 2: Responsive Web Layout",
     "details": "A Responsive Website will be created here.",
-    "time": "1.5",
+    "time": 3,
     "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-3.jpg"
   },
   {
     "id": "3",
     "name": "Milestone 3: CSS Frameworks",
     "details": "CSS frameworks will be introduced here.",
-    "time": "2.3",
+    "time": 2,
     "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-4.jpg"
   },
   {
     "id": "4",
     "name": "Milestone 4: Introduction to JavaScript",
     "details": "JavaScript will be introduced here.",
-    "time": "2",
+    "time": 1,
     "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-6.jpg"
   },
   {
     "id": "5",
     "name": "Milestone 5: Integrate JavaScript",
     "details": "JavaScript will be integrated here.",
-    "time": "1.8",
+    "time": 4,
     "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-7.jpg"
   },
   {
     "id": "6",
     "name": "Milestone 6: Intermediate JavaScript, API",
     "details": "JavaScript will be integrated with API here.",
-    "time": "2.5",
+    "time": 3,
     "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-8.jpg"
   }
 ]

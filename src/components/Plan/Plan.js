@@ -12,15 +12,25 @@ const Plan = () => {
       .then((data) => setMilestones(data));
   }, []);
 
+  const [time, setTime] = useState(0);
+
+  const requiredTime = (Time) => {
+    setTime(time + Time);
+  };
+
   return (
     <div className="plan-container">
       <div className="milestone-container">
         {milestones.map((milestone) => (
-          <Milestones key={milestone.id} milestone={milestone}></Milestones>
+          <Milestones
+            key={milestone.id}
+            milestone={milestone}
+            requiredTime={requiredTime}
+          ></Milestones>
         ))}
       </div>
       <div className="cart-container">
-        <Cart></Cart>
+        <Cart cart = {time}></Cart>
       </div>
     </div>
   );
