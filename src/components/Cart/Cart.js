@@ -1,15 +1,19 @@
 import React, { useEffect, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./Cart.css";
 import logo from "../../pictures/logo.jpg";
 
-const Cart = ({cart}) => {
-    const [breakTime, setBreakTime] = useState([]);
-    useEffect(() => {}, [breakTime]);
-    const addLocalStorage = (Time) => {
-      localStorage.setItem("break", Time);
-      setBreakTime(Time);
-    };
-    const getLocalStorageItem = localStorage.getItem("break");
+const Cart = ({ cart }) => {
+  const [breakTime, setBreakTime] = useState([]);
+  useEffect(() => {}, [breakTime]);
+  const addLocalStorage = (Time) => {
+    localStorage.setItem("break", Time);
+    setBreakTime(Time);
+  };
+  const getLocalStorageItem = localStorage.getItem("break");
+
+  const notify = () => toast("Great, You've Completed");
 
   return (
     <div className="cart">
@@ -53,8 +57,11 @@ const Cart = ({cart}) => {
         </div>
       </div>
       <div>
-        <button className="btn-completed">Course Completed</button>
+        <button onClick={notify} className="btn-completed">
+          Course Completed
+        </button>
       </div>
+      <ToastContainer />
     </div>
   );
 };
