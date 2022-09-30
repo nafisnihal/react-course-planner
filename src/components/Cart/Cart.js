@@ -27,16 +27,24 @@ const Cart = ({ cart }) => {
       <div className="break">
         <p className="break-title">Select Minutes of Break Time</p>
         <div className="minutes">
-          <button onClick={(e) => addLocalStorage(e.target.innerText)}>
+          <button
+            onClick={(brkTime) => addLocalStorage(brkTime.target.innerText)}
+          >
             10
           </button>
-          <button onClick={(e) => addLocalStorage(e.target.innerText)}>
+          <button
+            onClick={(brkTime) => addLocalStorage(brkTime.target.innerText)}
+          >
             20
           </button>
-          <button onClick={(e) => addLocalStorage(e.target.innerText)}>
+          <button
+            onClick={(brkTime) => addLocalStorage(brkTime.target.innerText)}
+          >
             30
           </button>
-          <button onClick={(e) => addLocalStorage(e.target.innerText)}>
+          <button
+            onClick={(brkTime) => addLocalStorage(brkTime.target.innerText)}
+          >
             40
           </button>
         </div>
