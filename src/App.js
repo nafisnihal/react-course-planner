@@ -8,7 +8,6 @@ function App() {
     <div className='planner'>
       <Header></Header>
       <Plan></Plan>
-      <QandA></QandA>
     </div>
   );
 }

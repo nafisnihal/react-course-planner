@@ -5,6 +5,7 @@
   background-color: #000000;
   padding: 20px 20px;
   height: 944px;
+  border-bottom-left-radius: 15px;
 }
 
 .name {
