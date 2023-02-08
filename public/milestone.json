@@ -1,44 +1,72 @@
 [
   {
     "id": "1",
-    "name": "Milestone 1: Personal Portfolio",
-    "details": "A personal Portfolio will be created here.",
-    "time": 2,
-    "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-2.jpg"
+    "name": "JavaScript For Begineers",
+    "img": "https://miro.medium.com/max/800/1*2jgqpiZAf85BQwWUHuv-6Q.png",
+    "details": "It is an introduction to the major components of javascript.",
+    "time": 4
   },
   {
     "id": "2",
-    "name": "Milestone 2: Responsive Web Layout",
-    "details": "A Responsive Website will be created here.",
-    "time": 3,
-    "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-3.jpg"
+    "name": "Python for Beginners - Learn Programming",
+    "img": "https://www.digifloor.com/wp-content/uploads/2016/07/python-banner.jpg",
+    "details": "This python for beginners whi is new to programming.",
+    "time": 5
   },
   {
     "id": "3",
-    "name": "Milestone 3: CSS Frameworks",
-    "details": "CSS frameworks will be introduced here.",
-    "time": 2,
-    "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-4.jpg"
+    "name": "Modern HTML & CSS From The Beginning",
+    "img": "https://www.lambdatest.com/blog/wp-content/uploads/2018/11/JPG-2.jpg",
+    "details": "Learn how to build responsive websites and user interfaces.",
+    "time": 4
   },
   {
     "id": "4",
-    "name": "Milestone 4: Introduction to JavaScript",
-    "details": "JavaScript will be introduced here.",
-    "time": 1,
-    "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-6.jpg"
+    "name": "JavaScript For Web Designers",
+    "img": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "details": "Build interactive websites and user interfaces with modern JavaScript.",
+    "time": 6
   },
   {
     "id": "5",
-    "name": "Milestone 5: Integrate JavaScript",
-    "details": "JavaScript will be integrated here.",
-    "time": 4,
-    "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-7.jpg"
+    "name": "Reactjs: Zero to Hero",
+    "img": "https://therichpost.com/wp-content/uploads/2020/08/Reactjs-create-and-include-hedar-footer-files.png",
+    "details": "This course will teach you React.js in a practice-oriented way.",
+    "time": 5
   },
   {
     "id": "6",
-    "name": "Milestone 6: Intermediate JavaScript, API",
-    "details": "JavaScript will be integrated with API here.",
-    "time": 3,
-    "img": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-8.jpg"
+    "name": "MERN Stack Course 2022 - MongoDB, Express, React and NodeJS",
+    "img": "https://repository-images.githubusercontent.com/323452378/f65fa580-43e4-11eb-83bc-328f29dfe7f0",
+    "details": "Welcome to this MERN Stack course.",
+    "time": 4
+  },
+  {
+    "id": "7",
+    "name": "Android App Development with Kotlin",
+    "img": "https://miro.medium.com/max/1200/1*8YPjY2xhNwQylBBs8dYB0g.png",
+    "details": "Kotlin is a very new and up-to-date programming language.",
+    "time": 5
+  },
+  {
+    "id": "8",
+    "name": "iOS & Swift: Become An App Developer",
+    "img": "https://apparchet.files.wordpress.com/2020/09/2632258_0546.jpg",
+    "details": "World's most comprehensive course on iOS development.",
+    "time": 3
+  },
+  {
+    "id": "9",
+    "name": "The Complete React Native + Hooks Course",
+    "img": "https://miro.medium.com/max/1400/0*3COG2jWwTUd0x-Ip.jpg",
+    "details": "React Native is an excellent solution for developing apps on mobile.",
+    "time": 4
+  },
+  {
+    "id": "10",
+    "name": "Mastering Data Structures & Algorithms",
+    "img": "https://hackr.io/blog/best-data-structure-and-algorithms-courses/thumbnail/large",
+    "details": "Data Structures & Algorithms Zero to Hero.",
+    "time": 6
   }
 ]

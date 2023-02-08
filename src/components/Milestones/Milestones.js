@@ -13,7 +13,7 @@ const Milestones = (props) => {
           <small>Required Time: {time} Hr</small>
         </p>
       </div>
-      <button onClick={() => props.requiredTime({time})} className="btn-add">
+      <button onClick={() => props.requiredTime(time)} className="btn-add">
         <p>Add To List</p>
       </button>
     </div>

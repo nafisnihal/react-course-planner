@@ -13,12 +13,27 @@
 @media screen and (max-width: 768px) {
   .milestone-container {
     display: flex;
+    gap: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15px 5px;
   }
   .plan-container {
     display: flex;
     flex-direction: column-reverse;
   }
+}
+
+@media screen and (max-width: 1024px) and  (min-width:769px) {
+  .plan-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+  .milestone-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 10px 10px;
+}
 }
