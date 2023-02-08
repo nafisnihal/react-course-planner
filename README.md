@@ -1,4 +1,4 @@
 # Course Planner App
+#### Responsive React.js App using vanilla CSS and browser local storage.
 
-Live Project: [Course Planner App](https://course-planner-nn.netlify.app/)
-
+## Live: [Course Planner App](https://course-planner-nn.netlify.app/)
